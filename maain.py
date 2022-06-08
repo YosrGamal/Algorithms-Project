@@ -148,7 +148,7 @@ def backRoute(x,y):
 
 renderBoard()
 
-#DFS(startx,starty)
+DFS(startx,starty)
 
 setMaze()
 renderBoard()
