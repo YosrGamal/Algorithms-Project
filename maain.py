@@ -1,3 +1,4 @@
+from collections import defaultdict
 import pygame
 import time
 from collections import deque
@@ -436,13 +437,11 @@ def backRoute(x, y):
         renderBoard()
         cost += 1
 
-<<<<<<< HEAD
     # Remove the comment of desired algo
-=======
 
 
 ####################################################################
-from collections import defaultdict
+
 
 class Graph:
 
@@ -498,6 +497,7 @@ class Graph:
                 print("")
 ####################################################################
 
+
 g = Graph(8)
 g.add_edge(0, 1)
 g.add_edge(1, 2)
@@ -510,11 +510,10 @@ g.add_edge(6, 4)
 g.add_edge(6, 7)
 
 print("Strongly Connected Components:")
-g.print_scc()    
+g.print_scc()
 
-    #Remove the comment of desired algo
+# Remove the comment of desired algo
 
->>>>>>> 523534f732b782860bde0cbe4e5816bc1402df2a
 renderBoard()
 # BFS(startx,starty)
 DFS(startx, starty)
